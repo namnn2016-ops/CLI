@@ -1,0 +1,9 @@
+README.md
+main.py
+setup.py
+namgpt.egg-info/PKG-INFO
+namgpt.egg-info/SOURCES.txt
+namgpt.egg-info/dependency_links.txt
+namgpt.egg-info/entry_points.txt
+namgpt.egg-info/requires.txt
+namgpt.egg-info/top_level.txt
