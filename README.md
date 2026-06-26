@@ -39,7 +39,7 @@ Hiện tại CLI hỗ trợ các lệnh:
 Clone dự án:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/namnn2016-ops/CLI
 ```
 
 Di chuyển vào thư mục:

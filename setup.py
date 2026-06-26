@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="namgpt",
+    name="gpt",
     version="1.0.0",
     py_modules=["main"],
     install_requires=[
@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "namgpt=main:app",
+            "gpt=main:app",
         ],
     },
 )
