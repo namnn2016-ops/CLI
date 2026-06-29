@@ -1,3 +1,4 @@
+README.md
 main.py
 setup.py
 gpt.egg-info/PKG-INFO
