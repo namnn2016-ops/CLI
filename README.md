@@ -1,191 +1,79 @@
-# GPT CLI
+<p align="center">
+  <img src="assets/banner.png" width="900">
+</p>
 
-CLI đầu tiên của mình được viết bằng **Python** và **Typer** để học cách xây dựng các ứng dụng dòng lệnh.
+<h1 align="center">🤖 NamGPT</h1>
 
-## 📖 Giới thiệu
+<p align="center">
+A beautiful command-line interface built with
+<b>Typer</b> • <b>Rich</b> • <b>Questionary</b>
+</p>
+<p align="center">
 
-GPT CLI là một dự án học tập giúp mình làm quen với:
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
 
-- Python
-- Typer
-- Command Line Interface (CLI)
-- setup.py
-- pip install
-- GitHub
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Dự án được tạo với mục đích học lập trình và tìm hiểu cách hoạt động của các công cụ như Git, npm và Vercel CLI.
+![CLI](https://img.shields.io/badge/CLI-Typer-blueviolet)
 
----
+![Rich](https://img.shields.io/badge/UI-Rich-orange)
 
-## ✨ Tính năng
+![Questionary](https://img.shields.io/badge/Menu-Questionary-red)
 
-Hiện tại CLI hỗ trợ các lệnh:
-
-- hello
-- about
-- version
-- login
-- logout
-- add
-- multiply
-- age
-- calc
-- me
-
----
-
-## 📦 Cài đặt
-
-Clone dự án:
+</p>
+<p align="center">
+<img src="assets/logo.png" width="180">
+</p>
+## 📦 Installation
 
 ```bash
-git clone https://github.com/namnn2016-ops/CLI
+pip install namgpt
 ```
-
-Di chuyển vào thư mục:
+## 🚀 Quick Start
 
 ```bash
-cd gpt
+namgpt --help
 ```
-
-Cài đặt:
 
 ```bash
-python -m pip install -e .
+namgpt khoi-dong
 ```
-
----
-
-## 🚀 Cách sử dụng
-
-### Xin chào
 
 ```bash
-gpt hello Nam
+namgpt chon
 ```
+## ✨ Features
 
-Kết quả:
+- Beautiful CLI
+- Rich Panels
+- Progress Bars
+- Spinners
+- Interactive Menus
+- JSON Storage
+- Calculator
+- BMI Calculator
+- Random Generator
+## 📷 Screenshot
 
-```text
-Hello Nam!
-```
-
----
-
-### Cộng hai số
-
-```bash
-gpt add 10 20
-```
-
-Kết quả:
-
-```text
-30
-```
-
----
-
-### Nhân hai số
-
-```bash
-gpt multiply 7 8
-```
-
-Kết quả:
-
-```text
-56
-```
-
----
-
-### Hiển thị phiên bản
-
-```bash
-gpt version
-```
-
-Kết quả:
-
-```text
-1.0.0
-```
-
----
-
-### Giới thiệu
-
-```bash
-gpt about
-```
-
----
-
-### Đăng nhập
-
-```bash
-gpt login
-```
-
----
-
-### Đăng xuất
-
-```bash
-gpt logout
-```
-
----
-
-### Hiển thị thông tin
-
-```bash
-gpt me
-```
-
----
-
-## 📂 Cấu trúc dự án
+<p align="center">
+<img src="assets/screenshot.png">
+</p>
+## 📁 Project Structure
 
 ```
-gpt/
+namgpt
 │
 ├── main.py
-├── setup.py
+├── pyproject.toml
 ├── README.md
-└── .gitignore
+├── LICENSE
+└── assets
+    ├── logo.png
+    ├── banner.png
+    └── screenshot.png
 ```
-
----
-
-## 🛠 Công nghệ sử dụng
-
-- Python
-- Typer
-- setuptools
-
----
-
-## 🎯 Mục tiêu
-
-Đây là dự án học tập nhằm:
-
-- Học Python
-- Học CLI
-- Học GitHub
-- Chuẩn bị kiến thức để xây dựng các dự án lớn hơn trong tương lai.
-
----
-
-## 👨‍💻 Tác giả
+## 👨‍💻 Author
 
 Nguyen Nhat Nam
 
-Dự án được tạo để học lập trình Python và CLI.
-
----
-
-## 📄 Giấy phép
-
-MIT License
+Made with ❤️ using Python

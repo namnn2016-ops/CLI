@@ -1,5 +1,93 @@
 Metadata-Version: 2.4
 Name: namgpt
-Version: 1.0.0
+Version: 1.0.3
+Summary: A beautiful CLI built with Typer, Rich and Questionary
+Author: Nguyen Nhat Nam
+License-Expression: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
 Requires-Dist: typer
-Dynamic: requires-dist
+Requires-Dist: rich
+Requires-Dist: questionary
+Dynamic: license-file
+
+<p align="center">
+  <img src="assets/banner.png" width="900">
+</p>
+
+<h1 align="center">🤖 NamGPT</h1>
+
+<p align="center">
+A beautiful command-line interface built with
+<b>Typer</b> • <b>Rich</b> • <b>Questionary</b>
+</p>
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![CLI](https://img.shields.io/badge/CLI-Typer-blueviolet)
+
+![Rich](https://img.shields.io/badge/UI-Rich-orange)
+
+![Questionary](https://img.shields.io/badge/Menu-Questionary-red)
+
+</p>
+<p align="center">
+<img src="assets/logo.png" width="180">
+</p>
+## 📦 Installation
+
+```bash
+pip install namgpt
+```
+## 🚀 Quick Start
+
+```bash
+namgpt --help
+```
+
+```bash
+namgpt khoi-dong
+```
+
+```bash
+namgpt chon
+```
+## ✨ Features
+
+- Beautiful CLI
+- Rich Panels
+- Progress Bars
+- Spinners
+- Interactive Menus
+- JSON Storage
+- Calculator
+- BMI Calculator
+- Random Generator
+## 📷 Screenshot
+
+<p align="center">
+<img src="assets/screenshot.png">
+</p>
+## 📁 Project Structure
+
+```
+namgpt
+│
+├── main.py
+├── pyproject.toml
+├── README.md
+├── LICENSE
+└── assets
+    ├── logo.png
+    ├── banner.png
+    └── screenshot.png
+```
+## 👨‍💻 Author
+
+Nguyen Nhat Nam
+
+Made with ❤️ using Python

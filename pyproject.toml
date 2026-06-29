@@ -3,9 +3,20 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "gpt"
-version = "1.0.0"
-dependencies = ["typer", "rich", "questionary"]
+name = "namgpt"
+version = "1.0.3"
+description = "A beautiful CLI built with Typer, Rich and Questionary"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Nguyen Nhat Nam" }
+]
+dependencies = [
+    "typer",
+    "rich",
+    "questionary"
+]
 
 [project.scripts]
-gpt = "main:app"
+namgpt = "main:app"

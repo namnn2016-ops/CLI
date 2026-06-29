@@ -1,6 +1,6 @@
+LICENSE
 README.md
-main.py
-setup.py
+pyproject.toml
 namgpt.egg-info/PKG-INFO
 namgpt.egg-info/SOURCES.txt
 namgpt.egg-info/dependency_links.txt
