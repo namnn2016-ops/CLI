@@ -1,4 +1,5 @@
 import typer
+import questionary
 import time
 import json
 import random
@@ -85,24 +86,50 @@ def user(username: str, tuoi: int):
 def khoi_dong():
     console.print(
         Panel(
-            "Chào mừng đến với NamGPT",
+            "[bold cyan]Chào mừng đến với NamGPT[/bold cyan]",
             title="NamGPT",
-            subtitle="Version 1.0"
+            subtitle="Version 1.0",
+            border_style="cyan"
         )
     )
-    with console.status(
-        "Đang chạy...",
-        spinner="line"
-    ):
-        time.sleep(3)
+
+    # Hiệu ứng đang khởi động
+    with console.status("[yellow]Đang khởi động...[/yellow]", spinner="dots"):
+        time.sleep(2)
+
+    # Thanh tiến trình
     with Progress() as progress:
-        task = progress.add_task(
-            "đang tải...",
-            total = 100
-        )
-    while not progress.finished:
-        progress.update(task, advance = 1)
-        time.sleep(0.03)
-    console.print("[green]thành công[/green]")
+        task = progress.add_task("Đang tải...", total=100)
+
+        for _ in range(100):
+            time.sleep(0.03)
+            progress.update(task, advance=1)
+
+    console.print("[bold green]✓ Khởi động thành công![/bold green]")
+@app.command()
+def chon():
+
+    commands = {
+        "about": about,
+        "me": me,
+        "login": login,
+        "logout": logout,
+        "version": version,
+    }
+
+    while True:
+
+        choice = questionary.select(
+            "Chọn chức năng:",
+            choices=list(commands.keys())
+        ).ask()
+
+        sure = questionary.confirm(
+            f"Bạn chọn '{choice}'. Bạn có chắc không?"
+        ).ask()
+
+        if sure:
+            commands[choice]()
+            break
 if __name__ == "__main__":
     app()
