@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/namgpt/__init__.py
+src/namgpt/__main__.py
+src/namgpt/cli.py
+src/namgpt.egg-info/PKG-INFO
+src/namgpt.egg-info/SOURCES.txt
+src/namgpt.egg-info/dependency_links.txt
+src/namgpt.egg-info/entry_points.txt
+src/namgpt.egg-info/requires.txt
+src/namgpt.egg-info/top_level.txt

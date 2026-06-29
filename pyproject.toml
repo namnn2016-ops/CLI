@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "namgpt"
-version = "1.1.4"
+version = "1.1.5"
 description = "A beautiful CLI built with Typer, Rich and Questionary"
 readme = "README.md"
 license = "MIT"
@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [project.scripts]
-namgpt = "main:app"
+namgpt = "namgpt.cli:app"
