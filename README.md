@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" width="900">
+  <img src="assets/banner.png">
 </p>
 
 <h1 align="center">🤖 NamGPT</h1>
@@ -22,7 +22,7 @@ A beautiful command-line interface built with
 
 </p>
 <p align="center">
-<img src="assets/logo.png" width="180">
+<img src="assets/logo.png">
 </p>
 ## 📦 Installation
 
