@@ -131,5 +131,3 @@ def chon():
         if sure:
             commands[choice]()
             break
-if __name__ == "__main__":
-    app()
